@@ -1,0 +1,149 @@
+.body{  /*color of app background*/
+  background-color: lightblue;
+}
+
+a{  /*anchor tag font style*/
+  font-family: 'Fjalla One', sans-serif;
+  color: #DA18F1;
+  font-size: 25px;
+  padding: 10px;
+}
+
+h1{  /*heading font style*/
+  font-family: 'Barrio', cursive;
+  color: red;
+  font-size: 75px;
+  padding-left: 15px;
+}
+
+input{ /*styling for the input fields*/
+  width: 100px;
+  height: 20px;
+  font-size: 17px;
+  color: red;
+}
+
+.bgimgocean{  /*ocean template background image*/
+  background: url("kidocean.jpg");
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-attachment: fixed;
+  height: 500px;
+  padding-top: 50px;
+  margin-top: 5px;
+}
+
+.bgimgspace{  /*moon template background image*/
+  background-image: url("kidspace.jpg");
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-attachment: fixed;
+  height: 500px;
+  padding-top: 50px;
+  margin-top: 5px;
+}
+
+.bgimgcity{  /*city template background image*/
+  background: url("kidcity.jpg");
+  background-repeat: no-repeat;
+  background-size: cover;
+  /*background-attachment: : fixed;*/
+  height: 500px;
+  padding-top: 50px;
+  margin-top: 5px;
+}
+
+.ocean {  /*input form for ocean template*/
+  line-height: 140%;
+  font-size: 20px;
+  display: inline-block;
+  float: left;
+  width: 650px;
+  height: 400px;
+  width: 450px;
+  border: 2px solid gray;
+  margin-left: 25px;
+  background-color: rgba(255, 255, 255, 0.7);
+}
+
+.oceanWords {  /*word choice list*/
+  padding: 10px;
+  font-size: 17px;
+  display: inline-block;
+  float: right;
+  margin-right: 60px;
+  width: 450px;
+  border: 2px solid gray;
+  margin-left: 25px;
+  background-color: rgba(255, 255, 255, 0.7);
+}
+
+.resultOcean{  /*ocean template result page*/
+  padding-top: 25px;
+  display: inline;
+  font-family: 'Lakki Reddy', cursive;
+  font-size: 30px;
+}
+
+.moon{  /*input form for moon template*/
+  line-height: 140%;
+  font-size: 20px;
+  display: inline-block;
+  float: left;
+  width: 650px;
+  height: 400px;
+  width: 450px;
+  border: 2px solid gray;
+  margin-left: 60px;
+  background-color: rgba(255, 255, 255, 0.9);
+}
+
+.moonWords{  /*word choice list*/
+  padding: 10px;
+  font-size: 17px;
+  display: inline-block;
+  float: right;
+  margin-right: 60px;
+  width: 450px;
+  border: 2px solid gray;
+  margin-left: 25px;
+  background-color: rgba(255, 255, 255, 0.9);
+}
+
+.resultMoon{  /*moon template result page*/
+  padding-top: 25px;
+  display: inline;
+  font-family: 'Lakki Reddy', cursive;
+  font-size: 30px;
+}
+
+.city {  /*input form for city template*/
+  line-height: 160%;
+  font-size: 20px;
+  display: inline-block;
+  float: left;
+  width: 650px;
+  height: 400px;
+  border: 2px solid gray;
+  margin-left: 25px;
+  background-color: rgba(255, 255, 255, 0.7);
+}
+
+.cityWords { /*word choice list*/
+  padding: 10px;
+  font-size: 17px;
+  display: inline-block;
+  float: right;
+  margin-right: 60px;
+  width: 450px;
+  border: 2px solid gray;
+  margin-left: 25px;
+  background-color: rgba(255, 255, 255, 0.7);
+}
+
+.resultCity{  /*city template result page*/
+  padding-top: 25px;
+  display: inline;
+  font-family: 'Lakki Reddy', cursive;
+  font-size: 30px;
+}
